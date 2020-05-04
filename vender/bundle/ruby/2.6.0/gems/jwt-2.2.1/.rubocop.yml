@@ -8,8 +8,6 @@ AllCops:
 Rails:
   Enabled: true
 
-Style/AlignParameters:
-  EnforcedStyle: with_fixed_indentation
 
 Style/CaseIndentation:
   EnforcedStyle: end
@@ -17,8 +15,6 @@ Style/CaseIndentation:
 Style/AsciiComments:
   Enabled: false
 
-Style/IndentHash:
-  Enabled: false
 
 Style/CollectionMethods:
   Enabled: true
@@ -32,9 +28,9 @@ Style/BlockDelimiters:
   Exclude:
     - spec/**/*_spec.rb
 
-Style/BracesAroundHashParameters:
-  Exclude:
-    - spec/**/*_spec.rb
+      #Style/BracesAroundHashParameters:
+        #  Exclude:
+          #    - spec/**/*_spec.rb
 
 Style/GuardClause:
   Enabled: false
@@ -90,9 +86,6 @@ Style/WordArray:
 Style/RedundantSelf:
   Enabled: false
 
-Style/AlignHash:
-  Enabled: true
-  EnforcedLastArgumentHashStyle: always_ignore
 
 Style/TrivialAccessors:
   AllowPredicates: true
