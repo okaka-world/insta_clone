@@ -12,6 +12,6 @@
 //= require jquery/dist/jquery.js
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
+// require turbolinks
 //= bootstrap-material-design/dist/js/bootstrap-material-design
 //= require_tree .
