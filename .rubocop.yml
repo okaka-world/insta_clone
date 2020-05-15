@@ -19,7 +19,10 @@ Rails:
 
 Layout/MultilineBlockLayout:
   Exclude:
+    - 'Gemfile'
+    - 'config/**/*'
     - 'spec/**/*_spec.rb'
+    - 'lib/tasks/*'
 
 Metrics/AbcSize:
   Max: 25
