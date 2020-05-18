@@ -25,6 +25,11 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+<<<<<<< HEAD
 
 /vendor
 /vender
+=======
+/vendor
+/vender
+>>>>>>> develop
