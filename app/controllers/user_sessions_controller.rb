@@ -9,7 +9,7 @@ class UserSessionsController < ApplicationController
       redirect_back_or_to :users
     else
       flash.now[:danger] = 'ログインに失敗しました'
-      render 'new'
+      render :new
     end
   end
 
