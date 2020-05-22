@@ -1,0 +1,11 @@
+.navbar.navbar-expand-lg.navbar-light.bg-light
+    a.navbar-brand href="#" InstaClone
+    button.navbar-toggler type="button" data-toggle="collapse" data-target="#header-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        span.navbar-toggler-icon
+    
+    #header-collapse.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+            li.nav-item
+                = link_to "Home", users_url, class: "nav-link"
+            li.nav-item
+                = link_to "ログアウト", logout_url, method: :delete, class: "nav-link"
